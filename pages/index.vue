@@ -6,6 +6,8 @@
       <doucks v-if="section.__component == 'groups.doucks-group'" :doucksdataleft="section.doucksleft" :doucksdataright="section.doucksright" />
       <testimonial v-if="section.__component == 'groups.testimonial-group'" :testimonialdata="section" />
       <reviewGroup v-if="section.__component == 'groups.review-group'" :reviewgroupdata="section" />
+      <reviewGrouptwo v-if="section.__component == 'groups.review-group-two'" :reviewgrouptwodata="section" />
+      <reviewGroupThree v-if="section.__component == 'groups.review-group-three'" :reviewgroupthreedata="section" />
     </section>
   </div>
 </template>

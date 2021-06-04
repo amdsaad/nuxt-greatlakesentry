@@ -5,6 +5,7 @@
       <services v-if="section.__component == 'groups.service-group'" :servicesdata="section" />
       <doucks v-if="section.__component == 'groups.doucks-group'" :doucksdataleft="section.doucksleft" :doucksdataright="section.doucksright" />
       <testimonial v-if="section.__component == 'groups.testimonial-group'" :testimonialdata="section" />
+      <reviewGroup v-if="section.__component == 'groups.review-group'" :reviewgroupdata="section" />
     </section>
   </div>
 </template>

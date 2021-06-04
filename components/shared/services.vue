@@ -1,8 +1,8 @@
 <template>
   <div class="containerMn">
-    <h1>Proudly Serving the Michigan, Ohio, Indiana and Canada Regions</h1>
+    <h1>{{ servicesdata.title }}</h1>
     <div class="serviceGRoup">
-      <div v-for="(item,indx) in servicesdata" :key="indx" class="serviceGRoupitem">
+      <div v-for="(item,indx) in servicesdata.service_item" :key="indx" class="serviceGRoupitem">
         <div class="aserviceImg">
           <img :src="item.image.url" alt="service img">
           <a href="/products/stationary-docks">
@@ -18,7 +18,7 @@
 export default {
   props: {
     servicesdata: {
-      type: Array,
+      type: Object,
       required: true
     }
   }

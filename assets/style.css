@@ -252,7 +252,7 @@ ul li {
   font-size: 20px;
   color: #fff;
 }
-#banner .slick-next,
+/* #banner .slick-next,
 #banner .slick-prev {
   background: 0 0;
   border: none;
@@ -270,7 +270,7 @@ ul li {
   -moz-transform: translate(-50%);
   -ms-transform: translate(-50%);
   -o-transform: translate(-50%);
-}
+} */
 #banner .slick-next {
   left: 98%;
   font-size: 1.2rem;

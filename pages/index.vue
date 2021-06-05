@@ -16,7 +16,6 @@
 export default {
   async asyncData ({ $strapi }) {
     const homepage = await $strapi.find('homepage')
-    console.log(homepage)
     return { homepage }
   }
 }

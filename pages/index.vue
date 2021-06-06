@@ -1,12 +1,12 @@
 <template>
-  <div class="homepage">
+  <div class="homepage" v-if="homepage">
     <section
       v-for="(section, indx) in homepage.section"
       :id="section.cssId"
       :key="indx"
     >
       <slider
-        v-if="section.Slick_slide_item"
+        v-if="section.Slick_slide_item.length"
         :sliderdata="section.Slick_slide_item"
       />
       <services
@@ -42,7 +42,7 @@
 export default {
   async asyncData({ $strapi }) {
     const homepage = await $strapi.find('homepage')
-    // console.log(homepage)
+    console.log(homepage)
     return { homepage }
   },
 }

@@ -51,8 +51,14 @@ export default {
     }
   },
   async fetch() {
-    this.footerData = await this.$strapi.find('footer')
-    console.log(this.footerData.second_col.link)
+    try {
+      const data = await this.$strapi.find('footer')
+      this.footerData = data
+    } catch (error) {
+      if (error.response.status == 404) {
+        this.footerData = null
+      }
+    }
   },
 }
 </script>

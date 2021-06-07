@@ -934,3 +934,8 @@ img.zoom {
   color: #000;
   font-family: "Bebas Neue", cursive;
 }
+
+
+.slick-list{
+  height:100%!important
+}

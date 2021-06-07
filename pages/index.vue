@@ -34,6 +34,10 @@
         v-if="section.__component == 'groups.review-group-three'"
         :reviewgroupthreedata="section"
       />
+      <blog-section
+        v-if="section.__component == 'groups.blog'"
+        :blogdata="section.blog_item"
+      />
     </section>
   </div>
 </template>

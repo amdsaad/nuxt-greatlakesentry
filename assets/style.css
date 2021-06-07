@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 p {
   font-family: sans-serif;
@@ -25,7 +25,7 @@ a:hover {
 }
 body {
   background-color: rgb(35, 35, 35);
-  background-image: url("/images/gun-metal.png");
+  background-image: url('/images/gun-metal.png');
 }
 .containerMn {
   width: 93%;
@@ -55,14 +55,14 @@ ul li {
   height: 65px;
   display: block;
   background-color: rgb(0, 0, 0);
-  background-image: url("/images/gun-metal.png");
+  background-image: url('/images/gun-metal.png');
 }
 .nav {
   width: 97%;
   height: 100%;
   margin: auto;
   display: block;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 .navGroup {
   display: grid;
@@ -116,7 +116,7 @@ ul li {
   z-index: 9999;
   display: none;
   background-color: rgb(0, 0, 0);
-  background-image: url("/images/gun-metal.png");
+  background-image: url('/images/gun-metal.png');
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -180,7 +180,7 @@ ul li {
   display: block;
 }
 .banner_group:after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -540,7 +540,7 @@ ul li {
 .reviewGrouptwo h2 {
   color: #000;
   font-size: 2.4em;
-  font-family: "sans serif" !important;
+  font-family: 'sans serif' !important;
 }
 .reviewGrouptwo h2:nth-child(3) {
   color: red;
@@ -604,7 +604,7 @@ ul li {
   font-family: sans-serif;
 }
 .footerGroupitem b:after {
-  content: " ";
+  content: ' ';
   display: block;
   top: 100%;
   left: 0;
@@ -699,19 +699,31 @@ h3 {
 }
 
 #faqHeader {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.45) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.45) 100%
+    ),
     url(https://dicksdocksandlifts.com/wp-content/uploads/2019/07/AS6_7576-174.jpg) !important;
   background-position-y: bottom;
 }
 
 #aboutHeader {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.45) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.45) 100%
+    ),
     url(https://dicksdocksandlifts.com/wp-content/uploads/2019/07/photo-1547836767-3e70150f017a.jpg) !important;
   background-position-y: bottom;
 }
 
 #productsHeader {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.45) 100%),
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.45) 100%
+    ),
     url(https://dicksdocksandlifts.com/wp-content/uploads/2019/07/photo-1507371341162-763b5e419408.jpg) !important;
 }
 
@@ -932,14 +944,92 @@ img.zoom {
   display: block;
   text-decoration: none;
   color: #000;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 
-
-.slick-list{
-  height:100%!important
+.slick-list {
+  height: 100% !important;
 }
 
-.slick-slider.slick-initialized{
-  height: 100%!important;
+.slick-slider.slick-initialized {
+  height: 100% !important;
+}
+
+.blog-section {
+  width: 100%;
+  background-color: #fdf8bb;
+  min-height: 300px;
+}
+.blog-container {
+  width: 100%;
+  max-width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.blog-container__text {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-family: sans-serif;
+  color: #000;
+  order: 2;
+  padding: 1rem;
+}
+.blog-container__text h1 {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: #444;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+.blog-container__img {
+  order: 1;
+}
+.blog-container__img img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 640px) {
+  .blog-section {
+    width: 100%;
+    background-color: #fdf8bb;
+    min-height: 300px;
+  }
+  .blog-container {
+    width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  .blog-container__text {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    font-family: sans-serif;
+    color: #000;
+    order: 1;
+    padding: 3rem;
+    margin-left: 2rem;
+    width: 65%;
+  }
+  .blog-container__text h1 {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    color: #444;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  .blog-container__img {
+    order: 2;
+    width: 35%;
+  }
+  .blog-container__img img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }

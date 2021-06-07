@@ -939,3 +939,7 @@ img.zoom {
 .slick-list{
   height:100%!important
 }
+
+.slick-slider.slick-initialized{
+  height: 100%!important;
+}

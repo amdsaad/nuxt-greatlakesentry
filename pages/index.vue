@@ -6,7 +6,7 @@
       :key="indx"
     >
       <slider
-        v-if="section.Slick_slide_item.length"
+        v-if="section.Slick_slide_item"
         :sliderdata="section.Slick_slide_item"
       />
       <services

@@ -10,9 +10,6 @@
         <div class="navGroupitem nav2">
           <ul class="manuUL">
             <li>
-              <nuxt-link to="/"> Home </nuxt-link>
-            </li>
-            <li>
               <nuxt-link to="#"> About Us </nuxt-link>
             </li>
             <li>
@@ -23,50 +20,6 @@
             </li>
             <li>
               <nuxt-link to="#"> Products </nuxt-link>
-              <ul class="submanu">
-                <li>
-                  <nuxt-link to="#"> Starr Docks </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Starr Accessories </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Starr Canopies </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Starr Dock Supports </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Starr Platinum Dock </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Starr Floating Docks </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Starr Roll-in Docks </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Starr Lifts </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Starr PWC / Jet Ski Lifts </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Aluminum Stairs </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> SledShed Trailers </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Purchase or Rent? </nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="#"> Owners Info </nuxt-link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <nuxt-link to="#"> Services </nuxt-link>
               <ul class="submanu">
                 <li>
                   <nuxt-link to="#"> Starr Docks </nuxt-link>

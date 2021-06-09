@@ -17,6 +17,9 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap' }
     ]
   },
+  mode: "universal",
+  target: "server",
+
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [

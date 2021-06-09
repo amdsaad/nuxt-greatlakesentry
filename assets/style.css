@@ -995,8 +995,9 @@ img.zoom {
 @media (min-width: 640px) {
   .blog-section {
     width: 100%;
-    background-color: #fdf8bb;
+    background-color: #f5f5dc;
     min-height: 300px;
+    margin-bottom: 1rem;
   }
   .blog-container {
     width: 100%;

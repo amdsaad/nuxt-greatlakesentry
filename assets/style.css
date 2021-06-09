@@ -1034,3 +1034,9 @@ img.zoom {
     object-fit: cover;
   }
 }
+
+.blog-title {
+  background-color: #25407b;
+  text-align: center;
+  padding: 2rem 0;
+}

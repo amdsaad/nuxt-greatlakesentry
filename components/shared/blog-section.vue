@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div class="blog-title">
+      <h1>Latest News & Updates</h1>
+    </div>
     <div
       v-for="(item, indx) in blogdata"
       :key="indx"
